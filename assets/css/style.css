@@ -1,0 +1,100 @@
+#header-one h2{
+  font-size: 30px;
+}
+
+#we-click{
+    width: 55px;
+    height: 60px;
+    padding: 15px;
+}
+
+/* music */
+.music-modal-wrapper {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.music-modal {
+  background: #172238;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color:  #f5a425;;
+}
+
+#yes-button, #no-button{
+  border-radius: 6px;
+  margin: 10px;
+  color: darkblue;
+  font-weight: 400;
+
+}
+
+.fade-out-animation {
+  animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.controls {
+  margin-top: 1rem;
+  text-align: center;
+  float: right;
+  margin-right: 3rem;
+}
+
+.controls img {
+ cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  nav{
+    width: 100%;
+  }
+
+  #menu{
+    width: 100%;
+  }
+
+  .controls{
+    display: hidden;
+  }
+
+
+ 
+  #head-text {
+    font-size: 21px;
+    
+  }
+
+  #text-sma{
+    font-size: 16px !important;
+  }
+  #text-small{
+    font-size: 18px !important;
+  }
+
+  #text-smallest{
+    font-size: 19px !important;
+  }
+
+  #num-text{
+    font-size: 13px !important;
+  }
+}
+
+  
+
